@@ -9,10 +9,10 @@ class WineDataset(Dataset):
         # data loading
         super().__init__()
 
-    def __getitem__(self, index) -> T_co:
-        # dataset[0]
+    def __getitem__(self, index):
+        # dataset
         return super().__getitem__(index)
     
     def __len__(self):
         # len(dataset)
-
+        pass
